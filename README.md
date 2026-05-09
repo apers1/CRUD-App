@@ -14,6 +14,7 @@ A simple Python inventory management system that stores stock history, supports 
 - Automatic CSV save/load
 - Binary search for fast lookup
 - Merge sort for alphabetical organization
+- List comprehension using Pythonic idioms
 
 ---
 
