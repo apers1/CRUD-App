@@ -222,6 +222,73 @@ Used to:
 
 ---
 
+# Time Complexity
+
+## Binary Search
+
+Used in:
+- `search()`
+- insertion logic in `add()`
+
+Time Complexity:
+
+- Best Case: `O(1)`
+- Average Case: `O(log n)`
+- Worst Case: `O(log n)`
+
+---
+
+## Merge Sort
+
+Used in:
+- `merge_sort()`
+
+Time Complexity:
+
+- Best Case: `O(n log n)`
+- Average Case: `O(n log n)`
+- Worst Case: `O(n log n)`
+
+Space Complexity:
+
+- `O(n)`
+
+---
+
+## Updating Stock
+
+Used in:
+- `update_stock()`
+
+Time Complexity:
+
+- Search: `O(log n)`
+- Append to history: `O(1)`
+
+Total:
+
+- `O(log n)`
+
+---
+
+## Adding Items
+
+Used in:
+- `add()`
+
+Time Complexity:
+
+- Binary search lookup: `O(log n)`
+- List insertion: `O(n)`
+
+Total Worst Case:
+
+- `O(n)`
+
+(The insertion itself shifts elements in the list.)
+
+---
+
 # Notes
 
 - Searches are case-insensitive
@@ -232,7 +299,5 @@ Used to:
 ---
 
 # Author
-apers1 and USeung1
 
-## TLDR;
 Python inventory tracker using object-oriented programming, abstract base classes, binary search, and merge sort.
