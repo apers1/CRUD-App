@@ -231,41 +231,8 @@ Used to:
 
 ---
 
-# Example Session
-
-```text
-1. Add Item
-Enter choice: 1
-
-Item name: Apples
-Initial value: 50
-
-"Apples" added
-```
-
-```text
-2. Update Stock
-Enter choice: 2
-
-Item name: Apples
-Change amount: -15
-
-"Apples" updated: 50 -> 35 (-15)
-```
-
-```text
-3. View Stock
-Enter choice: 3
-
-Stock History for "Apples"
-
-History : "[50, 35]"
-
-Current : "35"
-```
-
----
-
 # Author
+apers1 and USeung1
 
+## TLDR;
 Python inventory tracker using object-oriented programming, abstract base classes, binary search, and merge sort.
