@@ -299,5 +299,6 @@ Total Worst Case:
 ---
 
 # Author
-
+apers1 and USeung1
+## TLDR;
 Python inventory tracker using object-oriented programming, abstract base classes, binary search, and merge sort.
