@@ -230,8 +230,7 @@ class InventoryOperations(ABC):
 
             writer.writerow(["Name", "Inventory History"])
 
-            for name, history in self.data:
-                writer.writerow([name, history])
+            writer.writerows([[name, history] for name, history in self.data])
 
 
 class Stock(InventoryOperations):
@@ -284,8 +283,7 @@ try:
             print(new_stock.calculate_prediction(name))
 
         elif choice == "6":
-            for item in new_stock.items:
-                print(item)
+            [print(item) for item in new_stock.items]
 
         elif choice == "7":
             new_stock.get_inventory()
